@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pycache/
+
+# Local matplotlib cache (e.g. MPLCONFIGDIR pointing inside the repo)
+.matplotlib/
+
+# macOS
+.DS_Store
