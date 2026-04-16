@@ -1,6 +1,0 @@
-# Anritsu MS2711D capture scripts (MS2111D_capture_data*.py)
-# Python 3.9+ recommended.
-
-pyserial>=3.5
-numpy>=1.20.0
-matplotlib>=3.5.0
