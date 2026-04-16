@@ -12,3 +12,7 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Local test exports (script --save output)
+/plot.csv
+/plot.png
