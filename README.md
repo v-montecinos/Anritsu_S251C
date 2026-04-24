@@ -95,3 +95,6 @@ Two columns with header:
 
 Values match what is plotted (including `--smooth` when enabled).
 
+## License / attribution
+
+Copyright 2026 — Vicente Montecinos Gaete.
