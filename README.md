@@ -95,10 +95,3 @@ Two columns with header:
 
 Values match what is plotted (including `--smooth` when enabled).
 
-
-## Protocol notes (short)
-
-- Opens serial, sends remote command `0x45`, reads identity, requests trace with `0x11 0x00`, reads **4364** bytes, sends `0xFF` and closes the port.
-- Sweep length is inferred from the trace header (130, 259, or 517 points).
-
-If something fails, check cable, port name, baud rate, and that the instrument has a valid trace stored for the current setup.
