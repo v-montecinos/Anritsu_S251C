@@ -76,13 +76,13 @@ python S251_Data_Capture.py --png out.png -n
 
 The script maps the instrument’s mode byte to the same quantities as the on-device frequency-domain modes:
 
-| Mode byte | Quantity |
-|-----------|----------|
-| `0x0` | Return loss (dB) |
-| `0x1` | SWR |
-| `0x2` | Cable loss (dB) |
-| `0x21` | Insertion loss (dB) |
-| `0x22` | Insertion gain (dB) |
+| Mode |
+|----------|
+| Return loss (dB) |
+| SWR |
+| Cable loss (dB) |
+| Insertion loss (dB) |
+| Insertion gain (dB) |
 
 Other modes print `Measure Mode not supported` and skip plotting/export.
 
