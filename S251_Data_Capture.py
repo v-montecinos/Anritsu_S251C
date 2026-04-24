@@ -67,8 +67,7 @@ def calc_data(trace_data):
     for i in range(len(gamma)):     #To avoid zero log
         if gamma[i] == 0:
             gamma[i] = 1
-        else:
-            pass
+
     return measure_mode, start_freq, stop_freq, frequency, gamma
 
 
