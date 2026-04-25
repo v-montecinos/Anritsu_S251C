@@ -42,7 +42,7 @@ Opens a matplotlib window with the trace (no Savitzky–Golay smoothing unless y
 |--------|-------------|
 | `-p`, `--port` | Serial device path |
 | `-b`, `--baudrate` | Baud rate (default: 9600) |
-| `--smooth` | Enable Savitzky–Golay smoothing on trace and CSV |
+| `--smooth` | Enable Gaussian smoothing on trace and CSV |
 | `--csv FILE` | Export frequency (MHz) + trace column to CSV |
 | `--png FILE` | Save plot as PNG (150 dpi) |
 | `-n`, `--no-show` | Do not open a GUI window (requires `--csv` and/or `--png`) |
